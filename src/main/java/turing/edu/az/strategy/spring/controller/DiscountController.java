@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.*;
 import turing.edu.az.strategy.spring.service.DiscountService;
 
 @RestController
-@RequestMapping("/api/discounts")
+@RequestMapping("/api/discount")
 public class DiscountController {
 
     private final DiscountService discountService;
